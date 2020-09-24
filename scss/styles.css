@@ -1,0 +1,9 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  -webkit-text-decoration: red;
+          text-decoration: red;
+}
+/*# sourceMappingURL=styles.css.map */
