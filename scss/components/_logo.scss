@@ -1,0 +1,21 @@
+.border {
+  border-bottom: 1px solid #ececec;
+}
+
+.logo {
+  color: var(--title-text-color);
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
+}
+
+.logo-header {
+  color: var(--accent-color);
+
+  font-family: Raleway;
+}
