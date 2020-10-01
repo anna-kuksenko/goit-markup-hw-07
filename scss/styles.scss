@@ -1,28 +1,19 @@
 @import "./utils/variables";
 
-@import "./components/logo";
-
-@import "./components/modal";
-
 @import "./base/commons";
 
 @import "./components/buttons";
+@import "./components/logo";
+@import "./components/modal";
 
 @import "./components/social-icon";
 
-@import "./layouts/clients";
-
-@import "./layouts/portfolio";
-
-@import "./layouts/footer";
-
-@import "./layouts/hero";
-
 @import "./layouts/advantage";
-
+@import "./layouts/clients";
 @import "./layouts/flex";
-
-@import "./layouts/nav";
-
+@import "./layouts/footer";
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/portfolio";
 
 
