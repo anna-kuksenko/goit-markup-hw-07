@@ -39,12 +39,6 @@
       transform: scaleX(1);
     }
     
-    
-    .contract{
-      color: $accent-color;
-    }
-    
-    
     .auth-nav {
       display: flex;
       margin-left: auto;
@@ -54,27 +48,20 @@
       display: block;
       padding-top: 32px;
       padding-bottom: 32px;
+
     }
     
     .site-nav .site-nav__item + .site-nav__item,
     .auth-nav .auth-nav__item + .auth-nav__item {
       margin-left: 50px;
     }
-    
-    .auth-nav__item {
-      align-items: center;
-    }
-    
-    .auth-nav__item:hover {
-      fill: $accent-color;
-    }
-    
+
     .envelope {
       margin-right: 10px;
       
       width: 16px;
       height: 12px;
-      fill: $secondary-text-color;
+      fill: $primary-text-color;
     }
     
     .smartphone {
@@ -86,10 +73,17 @@
       width: 10px;
       height: 16px;
     
-      fill: $secondary-text-color;
+      fill: $primary-text-color;
     }
-    
-    
+
+    .envelope:hover,
+    .envelope:focus,
+    .smartphone:hover,
+    .smartphone:focus {
+      fill: $accent-color;
+    }
+
+
     .site-nav .link,
     .auth-nav .link {
       display: inline-block;
@@ -120,4 +114,8 @@
     .auth-nav .link:focus {
       color: $accent-color;
     }
+
+  
+
+
     
